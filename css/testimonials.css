@@ -8,7 +8,7 @@
 }
 
 .testimonials__section {
-  background: url(img/testimonials-background.png);
+  background: url(../img/testimonials-background.png);
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -31,7 +31,7 @@
 .next {
   cursor: pointer;
   position: absolute;
-  top: 700%;  
+  top: 650%;  
   width: auto;
   margin-top: -22px;
   padding: 16px;
