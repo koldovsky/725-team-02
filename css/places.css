@@ -1,143 +1,144 @@
 .places {
-    padding: 60px 40px 130px 40px;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(80, 81, 85);
-  }
-  
-  .places__content {
+  padding: 60px 40px 130px 40px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(80, 81, 85);
+}
+
+.places__content {
   display: flex;
-  }
-  
-  .header__red-line {
-    color: rgb(238,46,20);
-  }
-  
-  .places__header {
-    margin-bottom: 50px;
-  }
-  
-  .places__preview {
-    width: 550px;
-    height: 714px;
-  }
-  
-  img {
-    object-fit: cover;
-   
-  }
-  
-  .places__header__caption {
-    font-size: 13px;
-    color: #6f7380;
-  }
-  
-  .places__header__title {
-    margin-top: 20px;
-    font-family: 'Playfair Display', serif;
-    font-size: 45px;
-    color: #505155;
-  }
-  
-  .places__header__description {
-    margin-top: 25px;
-    font-weight: 200;
-    font-size: 19px;
-    color: #505155;
-  }
-  
-  .places__nav {
-    display: flex;
-    margin-bottom: 30px;
-  }
-  
-  .places__nav__tab-title {
-    padding: 15px 20px 15px 20px;
-    font-weight: bold;
-    font-size: 17px;
-    color: rgb(80, 81, 85);
-  }
-  
-  .places__info {
-    display: grid;
-    padding: 60px 70px 60px 70px;
-  }
-  
-  .places__header__text {
-    margin-top: 20px;
-    font-size: 36px;
-    font-weight: 700;
-    font-family: 'Playfair Display', serif;;
-    color: #505155;
-  }
-  
-  .places__night__hotel {
-    margin-top: 25px;
-    display: flex;
-  }
-  
-  .places__night {
-    width: 100%;
-  }
-  
-  .places__hotel {
-    width: 100%;
-  }
-  
-  .places__night-count {
-    font-size: 19px;
-    font-weight: 700;
-    color: rgb(238,46,20);
-  }
-  
-  .places__hotel-name {
-    font-size: 15px;
-    font-weight: 400;
-    color: #1f1f1d;
-  }
-  
-  .places__description {
-    margin-top: 30px;
-  }
-  
-  .places__description__text {
-    font-size: 17px;
-    font-weight: 400px;
-    letter-spacing: .03em;
-    line-height: 1.7;
-    font-weight: 400px;
-    color: #707070;
-  }
-  
-  .places__details {
+}
+
+.header__red-line {
+  color: rgb(238, 46, 20);
+}
+
+.places__header {
+  margin-bottom: 50px;
+}
+
+.places__preview {
+  width: 550px;
+  height: 714px;
+}
+
+.places__preview__image {
+  object-fit: cover;
+
+}
+
+.places__header__caption {
+  font-size: 13px;
+  color: #6f7380;
+}
+
+.places__header__title {
   margin-top: 20px;
-  }
-  
-  .places__details__benefits {
-    display: flex;
-    margin-bottom: 16px;
-  }
-  
-  .places__details__benefits {
-    font-size: 15px;
-    font-weight: 400px;
-  }
-  
-  .places__bottom {
-    margin-bottom: 0px;
-  }
-  
-  .places__bottom__container{
-    display: flex;
-    background-color: #14a9ee;
-    height: 42px;
-    width: 134px;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .places__bottom__book-now {
-    font-size: 14px;
-    font-weight: 700;
-    color: white;
-    text-decoration: none;
-  }  
+  font-family: 'Playfair Display', serif;
+  font-size: 45px;
+  color: #505155;
+}
+
+.places__header__description {
+  margin-top: 25px;
+  font-weight: 200;
+  font-size: 19px;
+  color: #505155;
+}
+
+.places__nav {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.places__nav__tab-title {
+  padding: 15px 20px 15px 20px;
+  font-weight: bold;
+  font-size: 17px;
+  color: rgb(80, 81, 85);
+}
+
+.places__info {
+  display: grid;
+  padding: 60px 70px 60px 70px;
+}
+
+.places__header__text {
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  ;
+  color: #505155;
+}
+
+.places__night__hotel {
+  margin-top: 25px;
+  display: flex;
+}
+
+.places__night {
+  width: 100%;
+}
+
+.places__hotel {
+  width: 100%;
+}
+
+.places__night-count {
+  font-size: 19px;
+  font-weight: 700;
+  color: rgb(238, 46, 20);
+}
+
+.places__hotel-name {
+  font-size: 15px;
+  font-weight: 400;
+  color: #1f1f1d;
+}
+
+.places__description {
+  margin-top: 30px;
+}
+
+.places__description__text {
+  font-size: 17px;
+  font-weight: 400px;
+  letter-spacing: .03em;
+  line-height: 1.7;
+  font-weight: 400px;
+  color: #707070;
+}
+
+.places__details {
+  margin-top: 20px;
+}
+
+.places__details__benefits {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.places__details__benefits {
+  font-size: 15px;
+  font-weight: 400px;
+}
+
+.places__bottom {
+  margin-bottom: 0px;
+}
+
+.places__bottom__container {
+  display: flex;
+  background-color: #14a9ee;
+  height: 42px;
+  width: 134px;
+  justify-content: center;
+  align-items: center;
+}
+
+.places__bottom__book-now {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
