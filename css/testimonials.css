@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.testimonials__section {
+  background: url(../img/testimonials-background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* opacity: 0.5; */
+  /* background-attachment: fixed; */
+}
+
+/* Slideshow container */
+.carousel-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: relative;
+  /* top: 50%;   */
+  /* bottom: 50%; */
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  font-size: 28px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;  
+  color: #505155;
+  opacity: 0.7;
+}
+
+h4 {
+  font-family: Roboto;
+  font-weight: 500;
+  color: #505155;
+  margin-top: 7rem;
+  font-size: 90%;
+  text-align: center;
+}
+.red-text {
+  color: red;
+}
+
+.testimonials__travelers-share {
+  font-family: Playfair Display;
+  font-weight: 700;
+  color: #505155;
+  margin-top: 2rem;
+  font-size: 300%;
+  text-align: center;
+}
+
+.testimonials__about-norway {
+  font-family: Roboto;
+  line-height: 1.9rem;
+  color: #505155;
+  margin-top: 3rem;
+  font-size: 120%;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.carousel-container {
+  width: 100%;
+}
+
+/* Position the "next button" to the right */
+.prev {
+  margin-right: 90%;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Hide the images by default */
+.images-slides {
+  display: none;
+}
+
+.carousel-images {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-radius: 50%;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.testimonials-img {
+  width: 125px;
+  height: 125px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 3.5rem;
+}
+.carousel-title {
+  font-family: Roboto;
+  color: #505155;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  font-size: 150%;
+  text-align: center;
+}
+
+.carousel-text-block {
+  font-family: Roboto;
+  color: #505155;
+  line-height: 1.9rem;
+  margin-top: 2rem;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.carousel-date {
+  font-family: Roboto;
+  color: #505155;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 100%;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* The dots */
+.local-dots {
+  position: relative;
+  margin: 0 auto;
+  margin-left: 47%;
+  margin-right: 47%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

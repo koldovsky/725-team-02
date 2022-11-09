@@ -11,40 +11,42 @@
 </head>
 
 <body>
-  <header>
+  <header class="header">
     <!-- 1 Оксана Косій -->
     <nav id="header" class="header__nav">
-      <a class="header__logo" href="#header"><img class="logo" src="img/norvay-logo.png" width="188" alt="Norway"></a>
+      <div class="header__nav-logo">
+        <a class="header__logo" href="#">
+          <img class="logo" src="img/norvay-logo.png" alt="Logo Norway">
+        </a>
+      </div>
       <div class="header__menu">
         <a class="header__link" href="#about-us">About Us</a>
         <a class="header__link" href="#places">Itinerary</a>
         <a class="header__link" href="#testimonials">Testimonials</a>
         <a class="header__link" href="#blog">Blog</a>
         <a class="header__link" href="#contacts">Contacts</a>
-        <a class="header__link-join" href="#contact-us">Join Us <img width="24" height="24" src="icons/arrow-right.svg"
-            alt="Arrow right"></a>
+        <a class="header__link header__link-button-join" href="#contact-us">Join Us →</a>
       </div>
     </nav>
     <div class="header__banner">
-      <p><span>━</span> YOUR PERFECT JOURNEY TO</p>
-      <h1>Norway</h1>
-      <div>
-        <img width="20" height="24" src="icons/play-video.svg" alt="Watch video">
-        <span class="">━</span>
-        <a class="header__link-video" href="#numbers">Whatch the promo video!</a>
-      </div>
-      <div class="header__trip">
-        <img class="header__image-video" src="img/norvey-video.png" width="320" height="210" alt="Video">
-        <div class="header__price">
-          <p>Next Trip to Norway</p>
-          <p>$2300</p>
-          <div class="line"></div>
-          <p>17 NOV. - 22 NOV.</p>
+      <div class="header__banner-text">
+        <p class="header__banner-subtitle"><span class="red-line">━</span> YOUR PERFECT JOURNEY TO</p>
+        <h1 class="header__banner-title">Norway</h1>
+        <div class="header__banner-play">
+          <img class="header__banner-icon" width="35" height="40" src="icons/icon-play-video.svg" alt="Watch video">
+          <span class="white-line">━</span>
+          <a class="header__link-video" href="#numbers">Whatch the promo video!</a>
         </div>
-        <p>10 days of travel and 5 unique places in Norway are waiting for us ...</p>
+      </div>
+      <div class="header__info-container">
+        <img class="header__image-video" src="img/norvey-video.png" width="320" height="210" alt="Video">
+        <div class="header__info">
+          <p class="header__info-subtitle">Next Trip to Norway</p>
+          <p class="header__info-price">$2300 | 17 NOV. - 22 NOV.</p>
+          <p class="header__info-text">10 days of travel and 5 unique places in Norway are waiting for us ...</p>
+        </div>
         <div class="header__button-content">
-          <a class="item__about-more" href="#places">Reade more <img width="24" height="24" src="icons/arrow-right.svg"
-              alt="Arrow right"></a>
+          <a class="item__about-more" href="#places">Reade more →</a>
         </div>
       </div>
     </div>
@@ -492,7 +494,7 @@
       <div class="stunning-spots__quote">
         <div class="stunning-spots__quote-empty"></div>
         <div class="stunning-spots__quote-block">
-          <img class="stunning-spots__double-quotes" width="30" src="img/double-quotes.svg" alt="Double quotes">
+          <img class="stunning-spots__double-quotes" src="img/double-quotes.png" alt="Double quotes">
           <p class="stunning-spots__quote-text">"Out in the fjord I dragged myself up at once, wet with fever and
             exhaustion,
             and gazed landwards, and bade farewell for the present to the town – to Christiania, where the
@@ -702,5 +704,5 @@
     </div>
   </footer>
 </body>
-
+<script type="text/javascript" src="js/template.js"></script>
 </html>

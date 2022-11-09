@@ -31,7 +31,6 @@
     font-size: 21px;
     font-weight: 600;
     font-style: normal;
-    text-align: center;
 }
 .stunning-spots__main-text, .stunning-spots__quote-autor {
     color: var(--color-main-text);
@@ -40,6 +39,9 @@
     font-weight: 400;
     font-style: normal;
 }
-.stunning-spots__quote-autor {
+.stunning-spots__quote-block, .stunning-spots__quote-autor {
     text-align: center;
+}
+.stunning-spots__double-quotes {
+    width: 35px;
 }
