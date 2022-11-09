@@ -1,0 +1,80 @@
+.about-norway {
+    --hyphen-color: rgb(238,46,20);
+    --about-norway__header-color: #6f7380;
+    --about-norway__main-txt-color: #505155;
+    --about-norway__numbers-txt-color: #232428;
+    --about-norway__footer-txt-color: #ffffff;
+    padding: 90px 0px 60px;
+}
+
+.about-norway__header {
+    padding: 0 24px 0 24px;
+}
+
+.img-letter-a {
+    min-width: 327.2px;
+    padding: 0 15px 0 15px;
+}
+
+.about-norway__header-name {
+    font-size: 12px;
+    color: var(--about-norway__header-color);
+    margin-top: 50px;
+}
+
+.red-hyphen {
+    color: var(--hyphen-color)
+}
+
+.about-norway__header-text {
+    font-family: "Playfair Display", serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--about-norway__main-txt-color);
+    margin-top: 25px;
+}
+
+.about-norway__main-text {
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--about-norway__main-txt-color);
+}
+
+.about-norway__statistics {
+    text-align: center;
+}
+
+.statistics-number {
+    font-size: 60px;
+    font-weight: 500;
+    color: var(--about-norway__numbers-txt-color)
+}
+
+.statistics-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--about-norway__main-txt-color);
+}
+
+.about-norway__footer-bg {
+    background-image: url(/img/norway-lanscape-background.jpg);
+    background-size: cover;
+    background-position: 50%, 60.16%;
+    min-height: 395.1px;
+    min-width: 327.2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yt-logo {
+    color: var(--about-norway__footer-txt-color);
+}
+
+.about-norway__footer-text {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--about-norway__footer-txt-color);
+}
+
