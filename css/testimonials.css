@@ -31,7 +31,8 @@
 .next {
   cursor: pointer;
   position: absolute;
-  top: 1050%;  
+  /* top: 1050%;   */
+  bottom: -650%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
