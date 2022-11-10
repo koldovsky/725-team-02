@@ -1,9 +1,98 @@
-@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap);
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.footer {
+    background: url(../img/footer_mountains_prllx.jpg);
 }
 
+.footer-contacts {
+    display: flex;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    justify-content: space-evenly;
+}
+
+.footer-contacts__card {
+    width: 30%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+/* EMAIL - card */
+.footer-contacts__email-img {
+    max-width: 70px;
+    margin-top: 2.5rem;
+}
+
+.footer-contacts__span {
+    margin-top: 1.5rem;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-contacts__email-a {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* CHECKIN - card */
+
+.footer-contacts__checkin-img {
+    max-width: 70px;
+    margin-top: 2.5rem;
+}
+
+.footer-contacts__span {
+    margin-top: 1.5rem;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-contacts__span-2 {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* PHONE - card */
+
+.footer-contacts__phone-img {
+    max-width: 70px;
+    margin-top: 2.5rem;
+}
+
+.footer-contacts__span {
+    margin-top: 1.5rem;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-contacts__phone-a {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*  FOOTER - NAVIGATION */
+
+.footer-nav {
+    background-color: black;
+    margin-top: 5rem;
+}
