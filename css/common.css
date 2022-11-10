@@ -5,7 +5,7 @@
   font-family: Roboto, sans-serif;
   /* Variables */
   --sign-start-color: #ee2e14; /*Колір червоної лінії на початку розділу*/
-  --beckground-dark: #232428; /*Колір фону темних блоків*/
+  --background-dark: #232428; /*Колір фону темних блоків*/
   --chapter-font-color: #6f7380; /*Колір шрифту назви блоку у світлих блоках */
   --chapter-font-color-light: #ffffff99; /*Колір шрифту назви блоку у темних блоках*/
   --title-font-color: #505155; /*Колір заголовку всередині блоку (для всіх блоків)*/
@@ -26,14 +26,19 @@
   font-size: 13px;
   font-weight: 500;
 }
-.title-font {
-  color: var(--title-font-color);
+.chapter-font-name-light {
+  color: var(--chapter-font-color-light);
+  font-size: 13px;
+  font-weight: 500;
+}
+.title-font-light {
+  color: var(--title-font-color-light);
   font-family: "Playfair Display", sans-serif;
   font-size: 34px;
   font-weight: 700;
 }
-.title-font-light {
-  color: var(--title-font-color-light);
+.title-font {
+  color: var(--title-font-color);
   font-family: "Playfair Display", sans-serif;
   font-size: 34px;
   font-weight: 700;

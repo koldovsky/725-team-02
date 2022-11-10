@@ -2,28 +2,10 @@
    background-color: var(--background-dark);
    --color-accordion: #A9A9A9;
 }
-.faq__title {
-   color: var(--chapter-font-color-light);
-   font-size: 12px;
-   font-weight: 500;
-   font-style: normal;
-}
-.faq__head-text {
-      color: var(--color-text);
-      font-family: "Playfair Display", serif;
-      font-size: 34px;
-      font-weight: 700;
-      font-style: normal;
-  }
-  .faq__dark-text {
-   color: #505155;
-  }
 .faq__main-text {
-   color: var(--color-head-text);
-   font-family: Roboto, sans-serif;
+   color: var(--chapter-font-color-light);
    font-size: 19px;
    font-weight: 400;
-   font-style: normal;
 }
 .faq__accordion-header {
    color: var(--color-text);
