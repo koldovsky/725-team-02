@@ -1,5 +1,21 @@
-#about-us {
+.about-us__title {
 font-family: Roboto,sans-serif;
-font-weight: 500;
-background-color: rgb(68, 142, 206);
+font-weight: 400;
+font-size: 45px;
+background-color: rgb(244, 246, 248);
+color: rgb(35, 36, 40);
+text-transform: none;
+letter-spacing: 1.35px;
+}
+.about-us__text {
+
+}
+#about-us {
+    margin: auto;
+    padding: 130px 40px;
+}
+.booking-steps {
+    padding: 90px 400px;
+    display: flex;
+    justify-content:space-between;
 }
