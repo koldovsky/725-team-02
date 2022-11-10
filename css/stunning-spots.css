@@ -1,47 +1,33 @@
 .stunning-spots {
-    background-color: #232428;
-    --color-main-text: #ffffff99;
-    --color-quote: #ffffff;
+    background-color: var(--background-dark);
 }
 .stunning-spots__title {
-    color: var(--color-main-text);
-    font-family: Roboto, sans-serif;
+    color: var(--chapter-font-color-light);
     font-size: 13px;
     font-weight: 500;
-    font-style: normal;
-}
-.red-line {
-    color: #ee2e14;
-    font-family: Roboto, sans-serif;
-    font-size: 12px;
-}
-.stunning-spots__header-text {
-    color: var(--color-quote);
-    font-family: "Playfair Display", sans-serif;
-    font-size: 34px;
-    font-weight: 700;
-    font-style: normal;
-}
-.text-dark {
-    color: #505155;
 }
 .stunning-spots__quote-text {
-    color: var(--color-quote);
+    color: var(--title-font-color-light);
     font-family: "Playfair Display", sans-serif;
     font-size: 21px;
     font-weight: 600;
-    font-style: normal;
 }
 .stunning-spots__main-text, .stunning-spots__quote-autor {
-    color: var(--color-main-text);
-    font-family: Roboto, sans-serif;
+    color: var(--chapter-font-color-light);
     font-size: 17px;
     font-weight: 400;
-    font-style: normal;
 }
 .stunning-spots__quote-block, .stunning-spots__quote-autor {
     text-align: center;
 }
 .stunning-spots__double-quotes {
-    width: 35px;
+    width: 50px;
+}
+.stunning-spots__quote {
+    margin-left: auto;
+    margin-right: auto;
+    width: 594px;
+    text-align: center;
+    border-top: 4px, solid, var(--title-font-color);
+    border-bottom: 4px, solid, var(--title-font-color);
 }

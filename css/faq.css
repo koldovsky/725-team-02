@@ -1,44 +1,22 @@
-.FAQ {
-    background-color: #232428;
-    --color-head-text: #FFFFFF99;
-    --color-text: #FFFFFF;
-    --color-accordion: #A9A9A9;
- }
- .faq_title {
-    color: var(--color-head-text);
-    font-family: Roboto, sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    font-style: normal;
- }
- .faq_head-text {
-       color: var(--color-text);
-       font-family: "Playfair Display", serif;
-       font-size: 34px;
-       font-weight: 700;
-       font-style: normal;
-   }
-   .faq_dark-text {
-    color: #505155;
-   }
- .faq_main-text {
-    color: var(--color-head-text);
-    font-family: Roboto, sans-serif;
-    font-size: 19px;
-    font-weight: 400;
-    font-style: normal;
- }
- .accordion {
-    color: var(--color-text);
-    font-family: Roboto, sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    font-style: normal;
- }
- .panel {
-    color: var(--color-accordion);
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
- }
+.faq {
+   background-color: var(--background-dark);
+   --color-accordion: #A9A9A9;
+}
+.faq__main-text {
+   color: var(--chapter-font-color-light);
+   font-size: 19px;
+   font-weight: 400;
+}
+.faq__accordion-header {
+   color: var(--title-font-color-light);
+   font-size: 17px;
+   font-weight: 400;
+   cursor: pointer;
+   position: relative;
+   background-color: #232428;
+}
+.faq__panel {
+   color: var(--color-accordion);
+   font-size: 14px;
+   font-weight: 400;
+}
