@@ -8,14 +8,19 @@ text-transform: none;
 letter-spacing: 1.35px;
 }
 .about-us__text {
+    text-align: justify;
 
 }
 #about-us {
     margin: auto;
-    padding: 130px 40px;
+    padding: 20px 0px 20px 0px
 }
 .booking-steps {
     padding: 90px 400px;
     display: flex;
     justify-content:space-between;
+}
+.main__section {
+    margin: auto;
+    padding: 24px
 }
