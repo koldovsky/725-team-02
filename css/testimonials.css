@@ -6,6 +6,10 @@
   background-size: cover;
 }
 
+.sign-start-chapter {
+  color: var(--sign-start-color);
+}
+
 /* Slideshow container */
 .carousel-container {
   max-width: 1000px;
