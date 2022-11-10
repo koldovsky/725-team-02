@@ -1,9 +1,9 @@
 .places {
-  max-width: 1170px;
+  max-width: 1200px;
   margin: auto;
   padding: 40px 15px 130px 15px;
   font-family: 'Roboto', sans-serif;
-  color: rgb(80, 81, 85);
+  color: var(--title-font-color);
 }
 
 .places__content {
@@ -12,10 +12,10 @@
 }
 
 .header__red-line {
-  color: rgb(238, 46, 20);
+  color:  var(--sign-start-color);
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 770px) {
   .places__nav {
     position: relative;
     overflow-y: visible;
@@ -25,7 +25,6 @@
 }
 
 .places__list {
-
   margin-top: 50px;
 }
 
@@ -35,16 +34,23 @@
   height: 100%;
 }
 
+.places__point__text {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .03em;
+  color: var(--chapter-font-color);
+}
+
 .places__header__caption {
   font-size: 13px;
-  color: #6f7380;
+  color: var(--chapter-font-color);
 }
 
 .places__header__title {
   margin-top: 20px;
   font-family: 'Playfair Display', serif;
   font-size: 45px;
-  color: #505155;
+  color: var(--title-font-color);
 }
 
 .places__header__description {
@@ -52,7 +58,7 @@
   font-weight: inherit;
   font-size: 19px;
   line-height: 1.6;
-  color: #505155;
+  color: var(--title-font-color);
 }
 
 .places__nav {
@@ -69,15 +75,16 @@
 .places__nav__tab:active {
   font-weight: bold;
   font-size: 17px;
-  color: rgb(80, 81, 85);
+  color: var(--title-font-color);
 }
 
 .nav__tab__active {
-  border-bottom: 2px solid rgb(238, 46, 20);
+  border-bottom: 2px solid  var(--sign-start-color);
 }
 
 .nav__tab__active .places__nav__tab-title {
-  color: #505155;
+  letter-spacing: 0.03em;
+  color: var(--title-font-color);
 }
 
 .places__nav__tab-title {
@@ -85,7 +92,7 @@
 }
 
 .nav__tab__title:active {
-  color: rgb(80, 81, 85);;
+  color: var(--title-font-color);
 }
 
 .places__content {
@@ -112,8 +119,7 @@
   font-size: 36px;
   font-weight: 700;
   font-family: 'Playfair Display', serif;
-  ;
-  color: #505155;
+  color: var(--title-font-color);
 }
 
 .places__night__hotel {
@@ -132,7 +138,7 @@
 .places__night-count {
   font-size: 19px;
   font-weight: 700;
-  color: rgb(238, 46, 20);
+  color:  var(--sign-start-color);
 }
 
 .places__hotel-name {
@@ -149,7 +155,7 @@
   font-size: 17px;
   font-weight: 400;
   letter-spacing: .03em;
-  line-height: 1.6;
+  line-height: 1.7;
   color: #707070;
 }
 
@@ -157,14 +163,17 @@
   margin-top: 20px;
 }
 
-.places__details__benefits {
+.places__benefit {
   display: flex;
-  text-align: center;
+  align-items: center;
+
+  margin-bottom: 16px;
+}
+
+.places__benefit__text {
   font-size: 15px;
   font-weight: 400;
-  margin-bottom: 16px;
-  height: 24px;
-  color: rgb(80, 81, 85);
+  color: var(--title-font-color);
 }
 
 .places__icon {
@@ -189,6 +198,6 @@
 .places__bottom__book-now {
   font-size: 14px;
   font-weight: 700;
-  color: white;
+  color: var(--title-font-color-light);
   text-decoration: none;
 }
