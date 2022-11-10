@@ -8,19 +8,15 @@
    font-weight: 400;
 }
 .faq__accordion-header {
-   color: var(--color-text);
-   font-family: Roboto, sans-serif;
+   color: var(--title-font-color-light);
    font-size: 17px;
    font-weight: 400;
-   font-style: normal;
    cursor: pointer;
    position: relative;
    background-color: #232428;
 }
 .faq__panel {
    color: var(--color-accordion);
-   font-family: Roboto, sans-serif;
    font-size: 14px;
    font-weight: 400;
-   font-style: normal;
 }
