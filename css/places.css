@@ -1,0 +1,194 @@
+.places {
+  max-width: 1170px;
+  margin: auto;
+  padding: 40px 15px 130px 15px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(80, 81, 85);
+}
+
+.places__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+}
+
+.header__red-line {
+  color: rgb(238, 46, 20);
+}
+
+@media screen and (max-width: 770px){
+  .places__nav {
+    position: relative;
+    overflow-y: visible;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+}
+
+.places__list {
+
+  margin-top: 50px;
+}
+
+.places__preview__image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.places__header__caption {
+  font-size: 13px;
+  color: #6f7380;
+}
+
+.places__header__title {
+  margin-top: 20px;
+  font-family: 'Playfair Display', serif;
+  font-size: 45px;
+  color: #505155;
+}
+
+.places__header__description {
+  margin-top: 25px;
+  font-weight: inherit;
+  font-size: 19px;
+  line-height: 1.6;
+  color: #505155;
+}
+
+.places__nav {
+  display: flex;
+  margin-bottom: 30px;
+  border-bottom: 1px solid  #c2c3c4;
+}
+
+.places__nav__tab {
+  cursor: pointer;
+	position: relative;
+}
+
+.places__nav__tab:active {
+  font-weight: bold;
+  font-size: 17px;
+  color: rgb(80, 81, 85);
+}
+
+.nav__tab__active {
+  border-bottom: 2px solid rgb(238, 46, 20);
+}
+
+.nav__tab__active .places__nav__tab-title {
+  color: #505155;
+}
+
+.places__nav__tab-title {
+  white-space: nowrap;
+}
+
+.nav__tab__title:active {
+  color: rgb(80, 81, 85);;
+}
+
+.places__content {
+  display: none;
+}
+
+.content__tab__active {
+  display: grid;
+}
+
+.places__nav__tab-title {
+  padding: 15px 20px 15px 20px;
+  font-weight: 700;
+  color:  #969799;
+}
+
+.places__info {
+  display: grid;
+  padding: 60px 70px 60px 70px;
+}
+
+.places__header__text {
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Playfair Display', serif;
+  ;
+  color: #505155;
+}
+
+.places__night__hotel {
+  margin-top: 25px;
+  display: flex;
+}
+
+.places__night {
+  width: 100%;
+}
+
+.places__hotel {
+  width: 100%;
+}
+
+.places__night-count {
+  font-size: 19px;
+  font-weight: 700;
+  color: rgb(238, 46, 20);
+}
+
+.places__hotel-name {
+  font-size: 15px;
+  font-weight: 400;
+  color: #1f1f1d;
+}
+
+.places__description {
+  margin-top: 30px;
+}
+
+.places__description__text {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: .03em;
+  line-height: 1.6;
+  color: #707070;
+}
+
+.places__details {
+  margin-top: 20px;
+}
+
+.places__details__benefits {
+  display: flex;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  height: 24px;
+  color: rgb(80, 81, 85);
+}
+
+.places__icon {
+  margin-right: 10px;
+  width: 20px;
+  height: 24px;
+}
+
+.places__bottom {
+  margin-bottom: 0px;
+}
+
+.places__bottom__container {
+  display: flex;
+  background-color: #14a9ee;
+  height: 42px;
+  width: 134px;
+  justify-content: center;
+  align-items: center;
+}
+
+.places__bottom__book-now {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}

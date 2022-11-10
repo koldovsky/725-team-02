@@ -1,21 +1,13 @@
 .faq {
-   background-color: #232428;
-   --color-head-text: #FFFFFF99;
-   --color-text: #FFFFFF;
+   background-color: var(--background-dark);
    --color-accordion: #A9A9A9;
 }
 .faq__title {
-   color: var(--color-head-text);
-   font-family: Roboto, sans-serif;
+   color: var(--chapter-font-color-light);
    font-size: 12px;
    font-weight: 500;
    font-style: normal;
 }
-.faq__line-before-text {
-     color: #ee2e14;
-     font-family: Roboto, sans-serif;
-     font-size: 12px;
-  }
 .faq__head-text {
       color: var(--color-text);
       font-family: "Playfair Display", serif;
