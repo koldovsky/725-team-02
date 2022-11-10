@@ -74,7 +74,6 @@
 
 .places__nav__tab:active {
   font-weight: bold;
-  font-size: 17px;
   color: var(--title-font-color);
 }
 
@@ -83,11 +82,11 @@
 }
 
 .nav__tab__active .places__nav__tab-title {
-  letter-spacing: 0.03em;
   color: var(--title-font-color);
 }
 
 .places__nav__tab-title {
+  letter-spacing: 0.03em;
   white-space: nowrap;
 }
 
