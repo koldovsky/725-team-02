@@ -1,5 +1,8 @@
 .footer {
-    background: url(../img/footer_mountains_prllx.jpg);
+    background-image: url(../img/footer_mountains_prllx.jpg);
+    background-size: cover;
+    background-position: center;
+max-width: 100%;
 }
 
 .footer-contacts {
@@ -92,7 +95,7 @@
 /*  FOOTER - NAVIGATION */
 
 .footer-nav {
-    background-color: black;
+
     margin-top: 5rem;
 }
 
@@ -131,4 +134,48 @@
     .footer-contacts__card {
         max-width: 360px;
     }
+}
+
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-nav__logo-container {}
+
+.footer-nav__logo {
+    margin-top: 7rem;
+    width: 176px;
+}
+
+.footer-nav__links {
+margin-top: 2rem;
+}
+
+.footer-nav__links-item {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Robot, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-nav__rights {
+    margin-top: 2rem;
+    display: flex;
+}
+.footer-nav__rights-span-created {
+
+}
+.footer-nav__rights-links {
+
+}
+
+.footer-nav__rights-span {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
 }
