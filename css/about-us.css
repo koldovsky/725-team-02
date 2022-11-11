@@ -1,3 +1,7 @@
+#about-us {
+    margin: auto;
+    padding: 20px 0px 20px 0px
+}
 .about-us__title {
 font-family: Roboto,sans-serif;
 font-weight: 400;
@@ -7,21 +11,20 @@ color: rgb(35, 36, 40);
 text-transform: none;
 letter-spacing: 1.35px;
 }
-.about-us__text {
+.about-us-chapter {
     text-align: justify;
-
-}
-#about-us {
-    margin: auto;
-    padding: 20px 0px 20px 0px
+    font-size: 19px;
+    overflow-wrap: break-word;
+    line-height: 32.3px;
+    -webkit-box-direction:normal ;
 }
 .booking-steps {
-    padding: 90px 400px;
+    padding: 90px 150px;
     display: flex;
     justify-content:space-between;
+    min-width: 320px;
+    position: relative;
 }
-.tour-itinerary_text {
-    background-color: #232428;
-    color: #fff;
-    margin: auto;
+.booking-steps-card{
+    padding: 0px 27px 0px 27px;
 }

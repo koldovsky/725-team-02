@@ -1,0 +1,42 @@
+.tour-itinerary_inner {
+    color: var(--chapter-font-color);
+    background-color:var(--background-dark);
+    margin: auto;
+}
+.map-of-norvay__img{
+    width: 400px;
+    object-position: 50% 50%;
+}
+.tour-itinerary-header{
+    display: flex;
+}
+.tour-itinerary-header-name {
+    font-size: 12px;
+    margin-top: 50px; 
+}
+.tour-itinerary-chapter{
+    font-size: 17px;
+    font-weight: 400;
+    height: auto;
+    letter-spacing: 0.51px;
+    line-height: 28.9px;
+    overflow-wrap: break-word;
+    text-align: left;
+    color: #a9a9a9;
+}
+.tour-itinerary-guarantees-card{
+    display: inline-block;
+    padding: 7.5px;
+    overflow-wrap: break-word;
+    text-align: left;
+}
+.tour-itinerary-guarantees-card-title{
+    color: var(--title-font-color-light);
+}
+.tour-itinerary-guarantees-card-icon{
+    border-radius: 15%;
+    width:26px;
+}
+.tour-itinerary-guarantees-card-chapter{
+    color: #a9a9a9;
+}
