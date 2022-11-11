@@ -29,6 +29,7 @@
     padding: 7.5px;
     overflow-wrap: break-word;
     text-align: left;
+    flex-direction: row;
 }
 .tour-itinerary-guarantees-card-title{
     color: var(--title-font-color-light);
@@ -39,4 +40,5 @@
 }
 .tour-itinerary-guarantees-card-chapter{
     color: #a9a9a9;
+    flex-direction: column;
 }
