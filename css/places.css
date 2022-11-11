@@ -1,9 +1,21 @@
 .places {
   max-width: 1200px;
   margin: auto;
-  padding: 40px 15px 130px 15px;
+  padding: 60px 24px 90px 24px;
   font-family: 'Roboto', sans-serif;
   color: var(--title-font-color);
+}
+
+@media screen and (min-width: 767px) {
+  .places {
+    padding: 60px 32px 110px 32px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .places {
+    padding: 60px 40px 130px 40px;
+  }
 }
 
 .places__content {
@@ -15,7 +27,7 @@
   color:  var(--sign-start-color);
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 767px) {
   .places__nav {
     position: relative;
     overflow-y: visible;
@@ -37,6 +49,7 @@
 .places__point__text {
   font-size: 13px;
   font-weight: 500;
+  line-height: 1.6;
   letter-spacing: .03em;
   color: var(--chapter-font-color);
 }
@@ -86,8 +99,11 @@
 }
 
 .places__nav__tab-title {
+  font-size: 17px;
   letter-spacing: 0.03em;
+  line-height: 1.7;
   white-space: nowrap;
+  color: var(--title-font-color);
 }
 
 .nav__tab__title:active {
@@ -110,7 +126,7 @@
 
 .places__info {
   display: grid;
-  padding: 60px 70px 60px 70px;
+  padding: 39px 43px;
 }
 
 .places__header__text {
@@ -122,12 +138,17 @@
 }
 
 .places__night__hotel {
-  margin-top: 25px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+
+  line-height: 1.7;
 }
 
 .places__night {
   width: 100%;
+  margin-bottom: 5px;
 }
 
 .places__hotel {
@@ -141,9 +162,35 @@
 }
 
 .places__hotel-name {
-  font-size: 15px;
-  font-weight: 400;
-  color: #1f1f1d;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: var(--title-font-color);
+}
+
+@media screen and (min-width: 767px)  {
+  .places__night__hotel {
+    flex-direction: row;
+    margin-top: 33px;
+  }
+
+  .places__night {
+    margin-bottom: 0;
+  }
+
+  .places__info {
+    padding: 46px 52px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .places__hotel-name {
+    font-size: 15px;
+  }
+
+  .places__info {
+    padding: 60px 70px;
+  }
 }
 
 .places__description {
