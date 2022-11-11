@@ -20,7 +20,8 @@ letter-spacing: 1.35px;
     display: flex;
     justify-content:space-between;
 }
-.main__section {
+.tour-itinerary_text {
+    background-color: #232428;
+    color: #fff;
     margin: auto;
-    padding: 24px
 }
