@@ -4,22 +4,32 @@
     --about-norway__main-txt-color: #505155;
     --about-norway__numbers-txt-color: #232428;
     --about-norway__footer-txt-color: #ffffff;
-    padding: 90px 0px 60px;
+    padding: 0px 0px 60px;
 }
 
 .about-norway__header {
-    padding: 0 24px 0 24px;
+    padding: 90px 24px 60px 24px;
 }
 
 .img-letter-a {
-    min-width: 327.2px;
+    min-width: 200px;
+    max-width: 676px;
+    width: 100%;
     padding: 0 15px 0 15px;
 }
 
 .about-norway__header-name {
     font-size: 12px;
     color: var(--about-norway__header-color);
-    margin-top: 50px;
+    }
+
+.about-norway__column-img {
+    padding: o 15px;
+}
+
+.about-norway__column {
+    margin: 50px 0 0;
+    padding: 0 15px;
 }
 
 .red-hyphen {
@@ -38,6 +48,10 @@
     font-size: 19px;
     font-weight: 400;
     color: var(--about-norway__main-txt-color);
+}
+
+.about-norway__text-column {
+    margin-top: 25px;
 }
 
 .about-norway__statistics {
