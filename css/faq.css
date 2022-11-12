@@ -6,17 +6,22 @@
    color: var(--chapter-font-color-light);
    font-size: 19px;
    font-weight: 400;
+   margin-top: 25px;
 }
 .faq__accordion-header {
    color: var(--title-font-color-light);
    font-size: 17px;
    font-weight: 400;
+   margin-top: 25px;
    cursor: pointer;
    position: relative;
+   border: none;
+   outline: none;
    background-color: #232428;
 }
 .faq__panel {
    color: var(--color-accordion);
    font-size: 14px;
    font-weight: 400;
+   margin-top: 25px;
 }
