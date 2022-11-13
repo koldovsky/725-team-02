@@ -19,7 +19,7 @@
 }
 .sign-start-chapter {
   color: var(--sign-start-color);
-  font-size: 12px;
+  font-size: 13px;
 }
 .chapter-font-name {
   color: var(--chapter-font-color);
@@ -34,12 +34,12 @@
 .title-font-light {
   color: var(--title-font-color-light);
   font-family: "Playfair Display", sans-serif;
-  font-size: 34px;
+  font-size: 39px;
   font-weight: 700;
 }
 .title-font {
   color: var(--title-font-color);
   font-family: "Playfair Display", sans-serif;
-  font-size: 34px;
+  font-size: 39px;
   font-weight: 700;
 }
