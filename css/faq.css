@@ -1,6 +1,25 @@
 .faq {
    background-color: var(--background-dark);
    --color-accordion: #A9A9A9;
+   padding-top: 5px !important;
+   padding-bottom: 5px !important;
+}
+.faq__general-grid {
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   align-items: center;
+   align-content: center;
+   max-width: 1200px;
+   margin: auto;
+   padding: 60px 24px 90px 24px;
+}
+.faq__general-text {
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   align-items: center;
+   align-content: center;
 }
 .faq__main-text {
    color: var(--chapter-font-color-light);
@@ -24,4 +43,24 @@
    font-size: 14px;
    font-weight: 400;
    margin-top: 25px;
+}
+.faq__image-main {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+   align-content: center;
+}
+.faq__image img {
+   width: 400px;
+   object-fit: cover;
+   object-position: 39.903% 50%;
+}
+.faq__general-text {
+   width: 100%;
+}
+@media (min-width: 530px) {
+   .faq__general-text {
+      width: 50%;
+   }
 }
