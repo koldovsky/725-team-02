@@ -1,16 +1,46 @@
 .stunning-spots {
     background-color: var(--background-dark);
 }
-.stunning-spots__title {
-    color: var(--chapter-font-color-light);
-    font-size: 13px;
-    font-weight: 500;
+.stunning-spots__content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 24px 90px 24px;
+}
+.stunning-spots__text {
+    margin-top: 1em;
+}
+.stunning-spots__main-text {
+    width: 100%;
+    line-height: 1.7;
+    padding-top: 4em;
+    padding-bottom: 3em;
+}
+@media (min-width: 760px) {
+    .stunning-spots__main-text {
+        width: 65%; 
+    }
 }
 .stunning-spots__quote-text {
     color: var(--title-font-color-light);
     font-family: "Playfair Display", sans-serif;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 600;
+    padding-top: 1.5em;
+    line-height: 2
+}
+.carousel-indicators {
+    text-align: center;
+}
+.carousel-indicators [type="button"] {
+    width: 12px;
+    height: 12px;
+    background-color: var(--title-font-color);
+    border-color: transparent;
+    border-radius: 50%;
+    margin: 2em 0.6em 10em 0.6em;
+}
+.carousel-indicators [type="button"]:hover {
+    background-color: var(--title-font-color-light);
 }
 .stunning-spots__main-text, .stunning-spots__quote-autor {
     color: var(--chapter-font-color-light);
@@ -19,15 +49,45 @@
 }
 .stunning-spots__quote-block, .stunning-spots__quote-autor {
     text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
 }
 .stunning-spots__double-quotes {
-    width: 50px;
+    width: 7%;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 }
 .stunning-spots__quote {
     margin-left: auto;
     margin-right: auto;
-    width: 594px;
+    width: 100%;
     text-align: center;
-    border-top: 4px, solid, var(--title-font-color);
-    border-bottom: 4px, solid, var(--title-font-color);
+}
+@media (min-width: 760px) {
+    .stunning-spots__quote {
+        width: 65%;
+    }
+    .stunning-spots__quote-text {
+        font-size: 21px;
+    }
+    .title-font-light {
+        font-size: 45px;
+    }
+    .title-font {
+        font-size: 45px;
+    } 
+}
+.double-quotes-with-lines {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.quote-line {
+    border-top: 1px solid var(--title-font-color);
+    height: 1px;
+    width: 100%;
+}
+.stunning-spots__quote-block {
+    border-bottom: 1px solid var(--title-font-color);
 }
