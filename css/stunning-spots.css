@@ -32,8 +32,8 @@
     text-align: center;
 }
 .carousel-indicators [type="button"] {
-    width: 0.8em;
-    height: 0.8em;
+    width: 12px;
+    height: 12px;
     background-color: var(--title-font-color);
     border-color: transparent;
     border-radius: 50%;
