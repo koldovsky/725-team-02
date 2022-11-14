@@ -123,11 +123,44 @@
 }
 
 @media (min-width: 768px) {
-    .about-norway__footer-grid {
+    .about-norway__footer {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+
+    .about-norway__footer-statistics {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:space-around;
+        align-items: center;
+        max-width: 825px;
+        padding: 30px 0 0;
+
+    }
+
+    .about-norway__footer-statistics-part {
+        padding: 0 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    .about-norway__footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-norway__footer-statistics {
+        display: flex;
+        padding: 30px 0 0;
+        max-width: none;
+    }
+
+    .about-norway__footer-statistics-part {
+        padding: 0 60px;
     }
 }
 
@@ -136,6 +169,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .about-norway__footer-bg {
