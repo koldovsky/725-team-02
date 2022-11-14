@@ -14,6 +14,10 @@
     padding: 90px 24px 60px;
     max-width: 1170px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-letter-a {
@@ -62,25 +66,39 @@
 }
 
 @media (min-width: 768px) {
-    .about-norway__header {
+    .about-norway__header-grid {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-norway__header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 90px 30px 60px;
+    }
+
+    .about-norway__header-name {
+        margin-top: 0;
     }
 
     .about-norway__column-img {
         display: flex;
-        justify-content: flex-start;
+        align-items: flex-start;
+        justify-content:flex-start;
         max-width: 370px;
-        margin-top: 40px;
+        padding: 0;
     }
 
     .about-norway__main-text-top {
-        margin-top: 20px;
+        padding-top: 80px;
     }
 
     .about-norway__title-text {
         font-size: 39px;
     }
+
 }
 
 .about-norway__footer {
@@ -104,6 +122,22 @@
     margin-top: 30px;
 }
 
+@media (min-width: 768px) {
+    .about-norway__footer-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.about-norway__footer-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .about-norway__footer-bg {
     background: url(../img/norway-lanscape-background.jpg);
     background-size: cover;
@@ -111,12 +145,11 @@
     min-width: 375px;
     min-height: 391px;
     width: 100%;
-    max-width: 1170px;
+    max-width: 710px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
 }
 
 .yt-logo {
