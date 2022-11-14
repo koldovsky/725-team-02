@@ -70,6 +70,9 @@
    height: auto;
    aspect-ratio: 0.86;
 }
+.faq__accordion-block {
+   border-bottom: 1px solid #A9A9A9;
+}
 
 @media screen and (min-width: 767px) {
    .faq__general-grid {

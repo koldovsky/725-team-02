@@ -27,7 +27,7 @@
 }
 /*next block*/
 .booking-bg__image {
-    background-image: url(/img/about-us-bg.jpeg);
+    background-image: url(../img/about-us-bg.jpeg);
     background-size: cover;
     background-position: 80%, 10%;
     min-height: 395.1px;
