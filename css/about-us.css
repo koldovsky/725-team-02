@@ -1,30 +1,71 @@
-#about-us {
-    margin: auto;
-    padding: 20px 0px 20px 0px
+.about-us-block {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    padding: 130px 150px 40px 150px;
 }
 .about-us__title {
-font-family: Roboto,sans-serif;
-font-weight: 400;
-font-size: 45px;
-background-color: rgb(244, 246, 248);
-color: rgb(35, 36, 40);
-text-transform: none;
-letter-spacing: 1.35px;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    background-color: rgb(244, 246, 248);
+    color: rgb(35, 36, 40);
+    letter-spacing: 1.35px;
+    min-width: 320px;
+}
+.accent-title-color {
+    color: rgb(20,169,238);
 }
 .about-us-chapter {
-    text-align: justify;
+    color: rgb(80, 81, 85);
+    display: flex;
+    flex-direction: column;
     font-size: 19px;
-    overflow-wrap: break-word;
     line-height: 32.3px;
-    -webkit-box-direction:normal ;
+    padding: 0px 150px 0px 150px;
+}
+/*next block*/
+.booking-bg__image {
+    background-image: url(/img/about-us-bg.jpeg);
+    background-size: cover;
+    background-position: 80%, 10%;
+    min-height: 395.1px;
+    min-width: 327.2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 .booking-steps {
-    padding: 90px 150px;
+    padding: 90px 150px 400px;
     display: flex;
+    flex-direction: row;
     justify-content:space-between;
-    min-width: 320px;
-    position: relative;
+    align-items:flex-start;
 }
 .booking-steps-card{
-    padding: 0px 27px 0px 27px;
+    padding: 30px 30px;
+    background-color: #ffffff;
+    justify-content: flex-start;
+    width: auto;
+}
+.step-number__image {
+    width: 50%;
+    justify-content:space-evenly;
+    object-fit: contain;
+    position: relative;
+}
+.booking-steps-title {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33.6px;
+    overflow-wrap: break-word;
+}
+.booking-steps-chapter{
+    font-size: 14px;
+    margin-top: 20px;
+    color: rgb(80, 81, 85);
+    line-height: 24px;
 }
