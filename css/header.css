@@ -222,7 +222,8 @@ nav .header__nav-logo {
     font-size: 70px;
     font-weight: 600;
     color: var(--title-font-color-light);
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 @media (min-width: 768px) {
