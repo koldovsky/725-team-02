@@ -248,7 +248,7 @@
 
 .places__bottom__container {
   display: flex;
-  background-color: #14a9ee;
+  background-color: var(--background-bottom-color);
   height: 42px;
   width: 134px;
   justify-content: center;

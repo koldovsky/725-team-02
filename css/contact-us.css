@@ -33,7 +33,7 @@
 }
 
 .contact-us__buttom-text [type="text"]:focus {
-    border: 1px solid #14a9ee;
+    border: 1px solid var(--background-bottom-color);
     border-radius: 5px;
 }
 .contact-us__buttom-tel [type="tel"] {
@@ -62,7 +62,7 @@
 }
 
 .contact-us__buttom-email [type="email"]:focus {
-    border: 1px solid #14a9ee;
+    border: 1px solid var(--background-bottom-color);
     border-radius: 5px;
 }
 .contact-us__buttom-date [type="date"] {
@@ -85,7 +85,7 @@
     font-size: 14px;
 }
 .contact-us__buttom-head-title {
-    background-color: #14a9ee;
+    background-color: var(--background-bottom-color);
 }
 .contact-us__main-form {
     display: flex;
