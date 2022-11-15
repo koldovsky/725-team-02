@@ -3,18 +3,18 @@
     background-size: cover;
     background-attachment: fixed;
 }
-.main_form__description {
+.contact-us__main-form-description {
     line-height: 1,7;
     font-weight: 400;
     font-size: 19px;
 }
-.main_form__title {
+.contact-us__main-form-title {
     color: var(--chapter-font-color-light);
     font-size: 19px;
     font-weight: 400;
     margin-top: 25px;
 }
-.contact__buttom-text [type="text"] {
+.contact-us__buttom-text [type="text"] {
     background-color: #2d2e34;
     color: #FFFFFF8A;
     width: 100%;
@@ -25,7 +25,7 @@
     border: none;
     outline: none;
 }
-.contact__buttom-tel [type="tel"] {
+.contact-us__buttom-tel [type="tel"] {
     background-color: #2d2e34;
     color: #FFFFFF8A;
     width: 100%;
@@ -36,7 +36,7 @@
     border: none;
     outline: none;
 }
-.contact__buttom-email [type="email"] {
+.contact-us__buttom-email [type="email"] {
     background-color: #2d2e34;
     color: #FFFFFF8A;
     width: 100%;
@@ -47,7 +47,7 @@
     border: none;
     outline: none;
 }
-.contact__buttom-date [type="date"] {
+.contact-us__buttom-date [type="date"] {
     background-color: #2d2e34;
     color: #FFFFFF8A;
     width: 100%;
@@ -57,7 +57,7 @@
     border: none;
     outline: none;
 }
-.contact__buttom-head [type="submit"] {
+.contact-us__buttom-head [type="submit"] {
     color: #FFFFFF;
     width: 100%;
     height: 40.8px;
@@ -67,25 +67,25 @@
     outline: none;
     cursor: pointer;
 }
-.contact__buttom-head-title {
+.contact-us__buttom-head-title {
     background-color: #14a9ee;
 }
-.main_form {
+.contact-us__main-form {
     display: flex;
     flex: 1;
     flex-direction: column;
     background-color: var(--background-dark); 
     padding: 43px 39px;
 }
-.main_form__input {
+.contact-us__main-form-input {
     margin-top: 20px;
 }
-.main_form__contact {
+.contact-us__main-form-contact {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.main_form-empty {
+.contact-us__main-form-empty {
     display: none;
     padding: 0 15px;
 }
@@ -95,12 +95,12 @@
     margin: auto;
     padding: 90px 24px;
 }
-.contact__head-title {
+.contact-us__head-title {
     margin-top: 20px;
 }
 
 @media screen and (min-width: 767px) {
-    .main_form-empty {
+    .contact-us__main-form-empty {
        flex: 1;
        display: flex;
     }
@@ -110,7 +110,7 @@
     .title-font-light {
         font-size: 39px;
     }
-    .main_form {
+    .contact-us__main-form {
         padding: 52px 46px;
     }
  }
@@ -121,7 +121,7 @@
     .title-font-light {
         font-size: 45px;
     }
-    .main_form {
+    .contact-us__main-form {
         padding: 70px 60px;
     }
  }
