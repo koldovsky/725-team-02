@@ -27,9 +27,19 @@
 .faq__panel {
    display: none;
 }
-.faq__accordion-button {
+.faq__accordion-title {
    padding: 20px 0;
    position: relative;
+   color: var(--title-font-color-light);
+   font-size: 17px;
+   font-weight: 400;
+   cursor: pointer;
+   position: relative;
+   text-align: left;
+   border: none;
+   outline: none;
+   font-family: 'Roboto', sans-serif;
+   background-color: #232428;
 }
 .faq__accordion-button::after {
    content: "";
@@ -50,23 +60,11 @@
 .faq__accordion {
    margin-top: 25px;
 }
-.faq__accordion-header {
-   color: var(--title-font-color-light);
-   font-size: 17px;
-   font-weight: 400;
-   cursor: pointer;
-   position: relative;
-   text-align: left;
-   border: none;
-   outline: none;
-   font-family: 'Roboto', sans-serif;
-   background-color: #232428;
-}
-.faq__panel {
+.faq__accordion-main {
    color: var(--color-accordion);
    font-size: 14px;
    font-weight: 400;
-   margin-top: 25px;
+   margin-bottom: 20px;
 }
 .faq__image-main {
    flex: 1;
@@ -102,6 +100,9 @@
 @media screen and (min-width: 991px) {
    .title-font-light {
       font-size: 39px;
+   }
+   .faq__general-grid {
+      justify-content: space-between;   
    }
 }
 
