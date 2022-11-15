@@ -2,19 +2,22 @@
     color: var(--chapter-font-color);
     background-color:var(--background-dark);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:space-evenly;
     align-items:flex-start;
-    padding: 130px 150px 40px 150px;
+    padding: 130px 24px 40px 24px;
 }
 .tour-itinerary-items {
     padding: 0px 15px;
 }
 .map-of-norvay__img{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    max-width: 100%;
     padding: 0px 15px;
-    width: 300px;
-    object-position: 50% 50%;
-    object-fit: contain;
+    object-position:inherit;
+    object-fit:cover;
 }
 .tour-itinerary-header{
     display: flex;
