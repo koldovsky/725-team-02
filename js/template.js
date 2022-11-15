@@ -14,7 +14,7 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-  // let i;
+  let i = 1;
   let slides = document.querySelectorAll(".images-slides");
   let dots = document.querySelectorAll(".dot");
   if (n > slides.length) {
@@ -27,8 +27,8 @@ function showSlides(n) {
     slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace(" activity", "");
   }
   slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active";
+  dots[slideIndex - 1].className += " activity";
 }
