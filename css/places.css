@@ -11,10 +11,6 @@
   grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
 }
 
-.header__red-line {
-  color:  var(--sign-start-color);
-}
-
 .places__list {
   margin-top: 50px;
 }
