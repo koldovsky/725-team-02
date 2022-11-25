@@ -47,22 +47,22 @@
     const prevButton = document.querySelector('.stunning-spots__carousel .stunning-spots__carousel_btn-prev');
     prevButton.addEventListener('click', prevSlide);
 
-    const selectButton01 = document.querySelector('.carousel-indicators .carousel-button-01');
+    const selectButton01 = document.querySelector('.carousel-indicators #carousel-button-01');
     selectButton01.addEventListener('click', getValue);
 
-    const selectButton02 = document.querySelector('.carousel-indicators .carousel-button-02');
+    const selectButton02 = document.querySelector('.carousel-indicators #carousel-button-02');
     selectButton02.addEventListener('click', getValue);
 
-    const selectButton03 = document.querySelector('.carousel-indicators .carousel-button-03');
+    const selectButton03 = document.querySelector('.carousel-indicators #carousel-button-03');
     selectButton03.addEventListener('click', getValue);
 
-    const selectButton04 = document.querySelector('.carousel-indicators .carousel-button-04');
+    const selectButton04 = document.querySelector('.carousel-indicators #carousel-button-04');
     selectButton04.addEventListener('click', getValue);
 
-    const selectButton05 = document.querySelector('.carousel-indicators .carousel-button-05');
+    const selectButton05 = document.querySelector('.carousel-indicators #carousel-button-05');
     selectButton05.addEventListener('click', getValue);
 
-    const selectButton06 = document.querySelector('.carousel-indicators .carousel-button-06');
+    const selectButton06 = document.querySelector('.carousel-indicators #carousel-button-06');
     selectButton06.addEventListener('click', getValue);
 
     window.addEventListener('resize', renderSlide);
