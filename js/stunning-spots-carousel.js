@@ -1,12 +1,17 @@
-(() => {
-    const slides = [
-        '<div><img src="img/port-in-norway.jpg" alt="Port in Norway"></div>',
-        '<div><img src="img/iceberg-in-the-sea.jpg" alt="Iceberg in the sea"></div>',
-        '<div><img src="img/man-on-the-rock.jpg" alt="Man on the rock"></div>',
-        '<div><img src="img/observation-deck-on-the-fjords.jpg" alt="Observation deck on the fjords"></div>',
-        '<div><img src="img/village-by-the-lake.jpg" alt="Village by the lake"></div>',
-        '<div><img src="img/red-houses-on-the-beach.jpg" alt="Red houses on the beach"></div>',
-    ]
+(async () => {
+
+    const response = await fetch('api/norway-landscapes.json');
+    const pictures = await response.json();
+
+    function creatingArrayOfImages(pictures) {
+        const arrayOfImages = [];
+        for (const picture of pictures) {
+            arrayOfImages.push(`<div><img src="${picture.image}" alt="${picture.title}"></div>`);
+        }
+        return arrayOfImages;
+    }
+
+    const slides = creatingArrayOfImages(pictures);
 
     let currentSlideIdx = 0;
 
@@ -21,7 +26,20 @@
                 slideContainer.innerHTML += slides[thirdSlideIdx];
             }
         }
+        renderButtons();
     }
+
+    function renderButtons() {
+        const buttonsContainer = document.querySelector('.carousel-indicators');
+        buttonsContainer.innerHTML = "";
+        let divContent;
+        for (let i = 0; i < slides.length; i++) {
+            if (i === currentSlideIdx) { divContent = '<div><button id="push_button" type="button" value="' + i + '"></button></div>'; }
+            else { divContent = '<div><button type="button" value="' + i + '"></button></div>'; }
+            buttonsContainer.innerHTML += divContent;
+        }
+    }
+
     function nextSlide() {
         currentSlideIdx++;
         if (currentSlideIdx >= slides.length) currentSlideIdx = 0;
@@ -35,7 +53,8 @@
     }
 
     function getValue(btn) {
-        currentSlideIdx = parseInt(btn.target.value) - 1;
+        const currentValue = btn.target.value;
+        if (currentValue !== undefined) currentSlideIdx = parseInt(currentValue);
         renderSlide();
     }
 
@@ -47,23 +66,8 @@
     const prevButton = document.querySelector('.stunning-spots__carousel .stunning-spots__carousel_btn-prev');
     prevButton.addEventListener('click', prevSlide);
 
-    const selectButton01 = document.querySelector('.carousel-indicators #carousel-button-01');
-    selectButton01.addEventListener('click', getValue);
-
-    const selectButton02 = document.querySelector('.carousel-indicators #carousel-button-02');
-    selectButton02.addEventListener('click', getValue);
-
-    const selectButton03 = document.querySelector('.carousel-indicators #carousel-button-03');
-    selectButton03.addEventListener('click', getValue);
-
-    const selectButton04 = document.querySelector('.carousel-indicators #carousel-button-04');
-    selectButton04.addEventListener('click', getValue);
-
-    const selectButton05 = document.querySelector('.carousel-indicators #carousel-button-05');
-    selectButton05.addEventListener('click', getValue);
-
-    const selectButton06 = document.querySelector('.carousel-indicators #carousel-button-06');
-    selectButton06.addEventListener('click', getValue);
+    const selectButton = document.querySelector('.carousel-indicators');
+    selectButton.addEventListener('click', getValue);
 
     window.addEventListener('resize', renderSlide);
 
