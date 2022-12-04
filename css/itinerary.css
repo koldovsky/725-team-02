@@ -43,9 +43,11 @@
    margin-top: 20px;
 }
 .tour-itinerary-guarantees-card{
-    margin:7.5px;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
     display: inline-block;
-    padding: 7.5px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
     overflow-wrap: break-word;
     text-align: left;
     flex-direction: row;
