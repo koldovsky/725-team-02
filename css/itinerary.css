@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    padding: 90px 24px;
+    padding: 30px 24px 90;
 }
 .tour-itinerary-items {
     padding: 0px 15px;
@@ -43,11 +43,9 @@
    margin-top: 20px;
 }
 .tour-itinerary-guarantees-card{
-    margin-top: 7.5px;
-    margin-bottom: 7.5px;
+    margin: 7.5px 0;
     display: inline-block;
-    padding-top: 7.5px;
-    padding-bottom: 7.5px;
+    padding: 7.5px 0;
     overflow-wrap: break-word;
     text-align: left;
     flex-direction: row;
