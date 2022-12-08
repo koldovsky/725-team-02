@@ -52,7 +52,7 @@
    opacity: .125;
 }
 
-.active::after {
+.faq__active::after {
    content: "\2013";
    color: #fff;
    font-weight: normal;
