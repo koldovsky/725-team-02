@@ -1,34 +1,45 @@
-//
+let activeIndex = 0;
+const dots = document.querySelectorAll(".dot");
+const sliderLine = document.querySelector(".slider-line");
+const slidesCount = sliderLine.children.length;
 
-let slideIndex = 1;
-showSlides(slideIndex);
+const setActiveDot = (index) => {
+  dots.forEach(dot => {
+    dot.classList.remove('is-active');
+  });
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides((slideIndex += n));
+  dots[index].classList.add('is-active');
 }
 
-// Image controls
-function currentSlide(n) {
-  showSlides((slideIndex = n));
+const setOffset = (index) => {
+  sliderLine.style.left = -(index * 100) + "%";
+
+  setActiveDot(index);
 }
 
-function showSlides(n) {
-  let i = 1;
-  let slides = document.querySelectorAll(".images-slides");
-  let dots = document.querySelectorAll(".dot");
-  if (n > slides.length) {
-    slideIndex = 1;
+
+document.querySelector(".slider-next").addEventListener("click", function () {
+  activeIndex++
+
+  if (activeIndex >= slidesCount) {
+    activeIndex = 0;
   }
-  if (n < 1) {
-    slideIndex = slides.length;
+
+  setOffset(activeIndex);
+});
+
+document.querySelector(".slider-prev").addEventListener("click", function () {
+  activeIndex--
+  
+  if (activeIndex < 0) {
+    activeIndex = slidesCount - 1;
   }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" activity", "");
-  }
-  slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " activity";
-}
+
+  setOffset(activeIndex);
+});
+
+dots.forEach(dot => {
+  dot.addEventListener('click', function handleClick(event) {
+    setOffset(dot.getAttribute('data-id'));
+  });
+});
