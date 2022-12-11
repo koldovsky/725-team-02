@@ -65,7 +65,7 @@
     border: 1px solid var(--background-bottom-color);
     border-radius: 5px;
 }
-.contact-us__buttom-date [type="date"] {
+.contact-usbuttom-date [type="date"], .contact-us__buttom-date [type="text"]  {
     background-color: #2d2e34;
     color: #FFFFFF8A;
     width: 100%;

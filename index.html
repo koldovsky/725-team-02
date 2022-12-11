@@ -825,22 +825,23 @@
                       name="user-email"
                       placeholder="Your Email"
                       required
-                    />
+                    >
                   </div>
                   <div class="contact-us__buttom-date">
                     <input
-                      type="date"
-                      name="date"
-                      placeholder="Choose Date"
-                      required
-                    />
+                      type="text"
+                    
+                      placeholder="Choose date"
+                      onfocus="(this.type='date')"
+                      onblur="(this.type='text')"
+                    >
                   </div>
                   <div class="contact-us__buttom-head">
                     <input
                       class="contact-us__buttom-head-title"
                       type="submit"
                       value="Request a quote"
-                    />
+                    >
                   </div>
                 </div>
               </form>
