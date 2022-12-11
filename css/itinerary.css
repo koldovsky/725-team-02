@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: left;
     align-items: left;
-    padding: 30px 24px 90;
+    padding: 30px 24px 90px;
 }
 .tour-itinerary-items {
     padding: 0px 15px;
@@ -81,7 +81,6 @@
 @media (min-width: 760px) {
     .tour-itinerary_inner{
         display: flex;
-        /*flex-direction: column;*/
         justify-content: center;
         align-items:flex-start;
     }
