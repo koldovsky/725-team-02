@@ -156,11 +156,19 @@
     .about-norway__footer-statistics {
         display: flex;
         padding: 30px 0 0;
-        max-width: none;
+        max-width: 958.4px;
     }
 
     .about-norway__footer-statistics-part {
         padding: 0 60px;
+    }
+}
+
+@media (min-width: 1343px) {
+    .about-norway__footer-statistics {
+        display: flex;
+        padding: 30px 0 0;
+        max-width: none;
     }
 }
 
